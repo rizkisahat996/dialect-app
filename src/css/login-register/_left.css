@@ -6,6 +6,9 @@
   justify-content: center;
   min-height: 100vh;
 }
+.register-section{
+    color:black;
+}
 
 .left-login {
   display: flex;

@@ -61,7 +61,7 @@ export default function Home() {
           <div className="right-login__straight-line"></div>
           <span>
             Belum punya akun?
-            <a>Daftar disini</a>
+            <a href="/register">Daftar disini</a>
           </span>
         </div>
       </section>
