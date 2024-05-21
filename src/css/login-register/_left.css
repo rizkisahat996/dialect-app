@@ -1,0 +1,42 @@
+.login-section {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 64px;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.left-login {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+  justify-content: center;
+  align-items: center;
+  padding: 90px;
+  background: linear-gradient(180deg, #508CAE 27.7%, #94B5C7 69.41%, #E2E2E2 100%);
+  height: 100%;
+}
+
+.left-login__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-login__word {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.left-login__word p {
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  letter-spacing: 0.96px;
+  text-align: center;
+}

@@ -1,0 +1,159 @@
+.right-login {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 64px;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-login__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  justify-content: center;
+  align-items: center;
+  max-width: 467px;
+}
+
+.right-login p {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 47px; /* 130.556% */
+}
+
+.right-login b {
+  color: #508cae;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 47px;
+}
+
+.right-login__bar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.right-login__bar-input {
+  display: flex;
+  overflow: hidden;
+  padding: 12px 22px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Number, 10px);
+  flex-shrink: 0;
+  border-radius: 15px;
+  border: 2px solid var(--Foundation-Blue-B60, #c9dbe6);
+  background: white;
+  color: black;
+  min-width: 35vh;
+}
+
+.right-login__bar-input::placeholder {
+  color: var(--Foundation-Blue-B100, #a1c1d3);
+  text-align: start;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px; /* 212.5% */
+}
+
+.right-login__line {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 100%;
+}
+
+.right-login__line-line {
+  stroke-width: 1px;
+  stroke: var(--Foundation-Black-B900, #000);
+  border: 1px solid black;
+  height: 0.5px;
+  grid-column: span 2 / span 2;
+}
+
+.right-login__line-text {
+  color: var(--Foundation-Blue-B500, #78a6c1);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+  text-align: center;
+}
+
+.right-login__button {
+  display: flex;
+  width: 100%;
+  padding: 13px 134px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--Number, 10px);
+  border-radius: 15px;
+  background: white;
+  border: 2px solid var(--Foundation-Black-B30, #ebebeb);
+  cursor: pointer;
+}
+
+.right-login__button span {
+  color: var(--Foundation-Black-B100, #757575);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+
+.right-login__straight {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-login__straight-line {
+  stroke-width: 1px;
+  stroke: var(--Foundation-Black-B900, #000);
+  border: 1px solid black;
+  height: 0.5px;
+  width: 100%;
+}
+
+.right-login__straight span {
+  color: var(--Foundation-Black-B90, #858585);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 19.2px */
+}
+
+.right-login__straight span a {
+  color: var(--Primer, #508cae);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 19.2px */
+  text-decoration-line: underline;
+  margin-left: 10px;
+}

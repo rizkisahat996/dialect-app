@@ -1,95 +1,70 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import "../css/index.css";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>src/app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="login-section">
+      <section className="left-login">
+        <div className="left-login__icon">
+          <Image
+            src="/book-icon.svg"
+            alt="Book Logo"
+            width={90}
+            height={90}
+            priority
+          />
         </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
+        <div className="left-login__word">
           <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
+            "Bersiaplah untuk petualangan baru dan pengetahuan yang tak
+            terbatas!"
           </p>
-        </a>
-      </div>
+        </div>
+      </section>
+      <section className="right-login">
+        <div className="right-login__wrapper">
+          <p>
+            Selamat Datang Kembali di <b>Lingoleaf</b>
+          </p>
+          <div className="right-login__bar">
+            <input
+              className="right-login__bar-input"
+              type="email"
+              name="email"
+              placeholder="Masukkan email"
+            />
+            <input
+              className="right-login__bar-input"
+              type="password"
+              name="password"
+              placeholder="Kata Sandi"
+            />
+          </div>
+        </div>
+        <div className="right-login__line">
+          <div className="right-login__line-line"></div>
+          <div className="right-login__line-text">Atau masuk dengan</div>
+          <div className="right-login__line-line"></div>
+        </div>
+        <button className="right-login__button" type="submit">
+          <Image
+            src="/google.svg"
+            width={25}
+            height={25}
+            priority
+            alt="Google Logo"
+          />
+          <span>Google</span>
+        </button>
+        <div className="right-login__straight">
+          <div className="right-login__straight-line"></div>
+          <span>
+            Belum punya akun?
+            <a>Daftar disini</a>
+          </span>
+        </div>
+      </section>
     </main>
   );
 }
