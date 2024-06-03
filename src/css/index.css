@@ -1,4 +1,5 @@
 @import url(./login-register/index.css);
+@import url(./dashboard/index.css);
 
 *{
     box-sizing: border-box
