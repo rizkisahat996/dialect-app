@@ -51,7 +51,7 @@
   flex-direction: column;
   gap: 10px;
   justify-content: center;
-  align-items: start;
+  align-items: flex-start;
   width: 100%;
 }
 
@@ -96,7 +96,7 @@
 
 .right-login__bar-input::placeholder {
   color: var(--Foundation-Blue-B100, #a1c1d3);
-  text-align: start;
+  text-align: flex-start;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -198,4 +198,37 @@
   line-height: 120%; /* 19.2px */
   text-decoration-line: underline;
   margin-left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .right-login {
+    gap: 20px;
+    padding: 32px;
+  }
+
+  .right-login p,
+  .right-login b {
+    font-size: 20px;
+  }
+  .right-login__wrapper {
+    gap: 32px;
+  }
+
+  .right-login__wrapper p,
+  .right-login__wrapper b { 
+    font-size: 24px;
+  }
+
+  .right-login__line-text {
+    font-size: 12px;
+  }
+
+  .right-login__button span {
+    font-size: 16px;
+  }
+
+  .right-login__straight span,
+  .right-login__straight a {
+    font-size: 14px;
+  }
 }

@@ -1,8 +1,10 @@
 @import url(./login-register/index.css);
 @import url(./dashboard/index.css);
+@import url(./layanan/index.css);
+@import url(./util/index.css);
 
-*{
-    box-sizing: border-box
+* {
+  box-sizing: border-box;
 }
 html {
   height: 100%;
@@ -20,4 +22,13 @@ body {
   min-height: 100%;
   position: relative;
   background: white;
+}
+
+main {
+  min-height: 100vh;
+  background: #fff;
+}
+
+span, p{
+  color: #000;
 }
