@@ -1,0 +1,37 @@
+.rekomendasi-percakapan {
+  display: flex;
+  flex-direction: column;
+  gap: 64px;
+}
+
+.rekomendasi-percakapan__item {
+  display: flex;
+  padding: 2% 5%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 60px;
+  border: 3px solid var(--Primer, #508cae);
+}
+
+.rekomendasi-percakapan__item:nth-child(even) {
+  background: #fff;
+}
+.rekomendasi-percakapan__item:nth-child(odd) {
+  background: var(--Primer, #508cae);
+}
+
+.rekomendasi-percakapan__item span {
+  color: #f9f7f7;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.rekomendasi-percakapan__item:nth-child(even) span {
+    color: #000;
+  }

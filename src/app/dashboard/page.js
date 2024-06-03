@@ -1,5 +1,4 @@
 import Image from "next/image";
-import "../../css/index.css";
 
 export default function Dashboard() {
   return (
