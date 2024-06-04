@@ -2,6 +2,7 @@
 @import url(./dashboard/index.css);
 @import url(./layanan/index.css);
 @import url(./util/index.css);
+@import url(./percakapan/index.css);
 
 * {
   box-sizing: border-box;
@@ -29,6 +30,7 @@ main {
   background: #fff;
 }
 
-span, p{
+span,
+p {
   color: #000;
 }

@@ -1,6 +1,6 @@
-'use client';
+"use client";
 
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import KamusIdioms from "@/components/layanan/KamusIdioms";
 import LayananNavbar from "@/components/layanan/LayananNavbar";
 import RekomendasiPercakapan from "@/components/layanan/RekomendasiPercakapan";
@@ -12,7 +12,17 @@ export default function Layanan() {
 
   const handleSectionChange = (section) => {
     setActiveSection(section);
+    window.history.pushState(null, "", `?section=${section}`);
   };
+
+  useEffect(() => {
+    const urlParams = new URLSearchParams(window.location.search);
+    const savedActiveSection = urlParams.get('section');
+    if (savedActiveSection) {
+      setActiveSection(savedActiveSection);
+    }
+  }, []);
+
 
   const renderSection = () => {
     switch (activeSection) {

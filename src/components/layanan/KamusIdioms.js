@@ -1,7 +1,7 @@
 import React from "react";
 
-export default function KamusIdioms(params) {
-  const kamus = [
+export default function KamusIdioms() {
+  const items = [
     {
       percakapan: "The cat is sleeping peacefully on the windowsill.",
       penjelasan:
@@ -25,8 +25,8 @@ export default function KamusIdioms(params) {
   ];
   return (
     <section className="kamus-idioms pd-container">
-      {kamus.map((item) => (
-        <div className="kamus-idioms__item">
+      {items.map((item, index) => (
+        <div className="kamus-idioms__item" key={index}>
           <span>"{item.percakapan}"</span>
           <p>{item.penjelasan}</p>
         </div>
