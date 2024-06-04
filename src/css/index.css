@@ -3,6 +3,7 @@
 @import url(./layanan/index.css);
 @import url(./util/index.css);
 @import url(./percakapan/index.css);
+@import url(./about/index.css);
 
 * {
   box-sizing: border-box;
