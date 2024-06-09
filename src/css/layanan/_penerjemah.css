@@ -1,0 +1,48 @@
+.choose-language {
+  position: absolute !important;
+  z-index: 99;
+}
+
+.jumlah-kata {
+  color: #9b9b9b;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43.563px; /* 217.817% */
+  margin: 5%;
+}
+
+.input-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 30vh;
+}
+
+.input-box textarea {
+  width: 100%;
+  background: transparent;
+  color: #595b5b;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  border: #fff;
+  text-decoration: none;
+  min-height: -webkit-fill-available;
+}
+
+.input-box textarea:focus {
+  outline: none;
+}
+
+.penerjemah-button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
