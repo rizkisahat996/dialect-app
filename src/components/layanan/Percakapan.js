@@ -13,15 +13,6 @@ export default function Percakapan(params) {
             </p>
           </div>
         </div>
-        {/* <div className="percakapan-chat">
-          <span>Hey</span>
-        </div>
-        <div className="percakapan-chat">
-          <span>Hello</span>
-        </div>
-        <div className="percakapan-chat">
-          <span>How Are You?</span>
-        </div> */}
       </div>
       <div className="percakapan-wrap">
         <input type="text" name="chat" />

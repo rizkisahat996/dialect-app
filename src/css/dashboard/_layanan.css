@@ -1,0 +1,75 @@
+.dashboard-layanan {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+}
+
+.dashboard-layanan span {
+  color: #000;
+  text-align: center;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.dashboard-layanan-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 64px;
+}
+
+.dashboard-layanan-items {
+  display: flex;
+  width: 338px;
+  height: 428px;
+  padding: 5px 20px;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  border: 3px solid var(--Primer, #508cae);
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+.dashboard-layanan-items span {
+  color: var(--Primer, #508cae);
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px; /* 183.333% */
+  margin-bottom: 15%;
+  height: 66px;
+}
+
+.dashboard-layanan-items p {
+  color: #595b5b;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.18px;
+  margin-bottom: 10%;
+}
+
+.dashboard-layanan-items a {
+  padding: 5px 15%;
+  gap: 10px;
+  border-radius: 20px;
+  border: 3px solid var(--Primer, #508cae);
+  background: var(--Primer, #508cae);
+}
+
+.dashboard-layanan-items a span {
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 44px; /* 220% */
+}
