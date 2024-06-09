@@ -17,8 +17,8 @@ export default function Home() {
         </div>
         <div className="left-login__word">
           <p>
-            "Bersiaplah untuk petualangan baru dan pengetahuan yang tak
-            terbatas!"
+          &quot;Bersiaplah untuk petualangan baru dan pengetahuan yang tak
+            terbatas!&quot;
           </p>
         </div>
       </section>

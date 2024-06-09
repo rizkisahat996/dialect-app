@@ -27,7 +27,7 @@ export default function KamusIdioms() {
     <section className="kamus-idioms pd-container">
       {items.map((item, index) => (
         <div className="kamus-idioms__item" key={index}>
-          <span>"{item.percakapan}"</span>
+          <span>&quot;{item.percakapan}&quot;</span>
           <p>{item.penjelasan}</p>
         </div>
       ))}

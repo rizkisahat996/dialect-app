@@ -25,7 +25,7 @@ export default function RekomendasiPercakapan(params) {
     <section className="rekomendasi-percakapan pd-container">
       {rekomendasi.map((item) => (
         <div className="rekomendasi-percakapan__item">
-          <span>"{item.percakapan}"</span>
+          <span>&quot;{item.percakapan}&quot;</span>
         </div>
       ))}
     </section>
