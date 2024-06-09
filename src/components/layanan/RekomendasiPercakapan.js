@@ -23,8 +23,8 @@ export default function RekomendasiPercakapan(params) {
   ];
   return (
     <section className="rekomendasi-percakapan pd-container">
-      {rekomendasi.map((item) => (
-        <div className="rekomendasi-percakapan__item">
+      {rekomendasi.map((item, index) => (
+        <div key={index} className="rekomendasi-percakapan__item">
           <span>&quot;{item.percakapan}&quot;</span>
         </div>
       ))}
