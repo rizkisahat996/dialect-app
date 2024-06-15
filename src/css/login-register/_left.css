@@ -16,7 +16,7 @@
   gap: 64px;
   justify-content: center;
   align-items: center;
-  padding: 90px;
+  padding: 110px;
   background: linear-gradient(
     180deg,
     #508cae 27.7%,
@@ -47,7 +47,7 @@
   font-weight: 800;
   line-height: normal;
   letter-spacing: 0.96px;
-  text-align: center;
+  text-align: start;
 }
 
 @media only screen and (max-width: 768px) {

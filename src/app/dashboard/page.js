@@ -22,7 +22,7 @@ export default function Dashboard() {
             <Link href={"#"}>
               <span>Dashboard</span>
             </Link>
-            <Link href={"#"}>
+            <Link href={"/layanan"}>
               <span>Layanan</span>
             </Link>
             <Link href={"#"}>

@@ -17,6 +17,24 @@
   max-width: 467px;
 }
 
+.right-login__wrapper button {
+  border-radius: 14.451px;
+  background: var(--fix, #127c9f);
+  box-shadow: 0px 30px 8px 0px rgba(0, 0, 0, 0),
+    0px 19px 8px 0px rgba(0, 0, 0, 0.01), 0px 11px 6px 0px rgba(0, 0, 0, 0.05),
+    0px 5px 5px 0px rgba(0, 0, 0, 0.09), 0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18.692px;
+  cursor: pointer;
+  width: 100%;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 75.752px;
+  letter-spacing: 1.682px;
+}
+
 .right-login p {
   color: #000;
   text-align: center;
@@ -34,6 +52,18 @@
   font-style: italic;
   font-weight: 600;
   line-height: 47px;
+}
+
+.right-login .forgot-password {
+  color: var(--Primary-color, var(--Primer, #508cae));
+  font-family: Poppins;
+  font-size: 13.773px;
+  font-style: normal;
+  font-weight: 400;
+  width: 100%;
+  line-height: normal;
+  text-align: end;
+  letter-spacing: 1.377px;
 }
 
 .right-login__bar {
@@ -215,7 +245,7 @@
   }
 
   .right-login__wrapper p,
-  .right-login__wrapper b { 
+  .right-login__wrapper b {
     font-size: 24px;
   }
 
